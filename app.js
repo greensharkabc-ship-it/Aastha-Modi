@@ -12,8 +12,8 @@
     { title: "An e-commerce website", glyph: "↗", tags: ["web"], status: "shipped", c: "#E0892B", sample: true,
       desc: "Built an e-commerce website, working with a team, for a retail store. The website has active users and we've made Rs.20k+ in revenue through the website.",
       links: [
-        { label: "Agarwal Online", url: "https://agarwalonline.in/" },
-        { label: "Agarwal Stores", url: "https://agarwal-stores.vercel.app/" }
+        { label: "website-1", url: "https://agarwalonline.in/" },
+        { label: "website-2", url: "https://agarwal-stores.vercel.app/" }
       ] },
     { title: "Family business: growth & marketing", glyph: "%", tags: ["business"], status: "shipped", c: "#1F9D5A", sample: true,
       desc: "Business development and marketing work for our family business. Swap in a specific campaign, channel or result." },
