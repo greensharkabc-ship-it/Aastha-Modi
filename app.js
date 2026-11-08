@@ -8,9 +8,9 @@
 
   const PROJECTS = [
     { title: "This portfolio", glyph: "A_", tags: ["web"], status: "shipped", c: "#2F4BFF",
-      desc: "Hand-built from scratch: a neuron canvas, a doodle pad, Spanish flashcards, a quick-jump palette and a light/dark theme." },
-    { title: "My startup idea", glyph: "↗", tags: ["startup"], status: "building", c: "#E0892B", sample: true,
-      desc: "What I'm working on right now. Give it a name and a one-line pitch: who it's for and what it fixes." },
+       desc: "I've made this personal website for myself"},
+    { title: "An e-commerce website", glyph: "↗", tags: ["web"], status: "shipped", c: "#E0892B", sample: true,
+      desc: "Built an e-commerce website, working with a team, for a retail store. The website has active users and we've made Rs.20k+ in revenue through the website"},
     { title: "Family business: growth & marketing", glyph: "%", tags: ["business"], status: "shipped", c: "#1F9D5A", sample: true,
       desc: "Business development and marketing work for our family business. Swap in a specific campaign, channel or result." },
     { title: "A website I built", glyph: "</>", tags: ["web"], status: "shipped", c: "#E0527A", sample: true,
@@ -19,9 +19,7 @@
       desc: "A tiny flip-card trainer for my Spanish vocab. Try it in the Hobbies tab." },
     { title: "Neuro × nutrition notes", glyph: "∿", tags: ["experiment"], status: "idea", c: "#8B5CF6", sample: true,
       desc: "An idea at the edge of neuroscience, nutrition and tech. Replace with one of your own experiments." }
-  ];
-
-  const EXPERIENCE = [
+  ]; = [
     { when: "Now", role: "Founder, in progress", org: "My own ventures",
       points: ["Working on my own business and startup ideas.",
                "Building websites and prototypes to test ideas quickly."],
