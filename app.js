@@ -10,7 +10,8 @@
     { title: "This portfolio", glyph: "A_", tags: ["web"], status: "shipped", c: "#2F4BFF",
        desc: "I've made this personal website for myself"},
     { title: "An e-commerce website", glyph: "↗", tags: ["web"], status: "shipped", c: "#E0892B", sample: true,
-      desc: "Built an e-commerce website, working with a team, for a retail store. The website has active users and we've made Rs.20k+ in revenue through the website. Visit: https://agarwalonline.in/},
+      desc: "Built an e-commerce website, working with a team, for a retail store. The website has active users and we've made Rs.20k+ in revenue through the website.",
+      link: "https://agarwalonline.in/" },
     { title: "Family business: growth & marketing", glyph: "%", tags: ["business"], status: "shipped", c: "#1F9D5A", sample: true,
       desc: "Business development and marketing work for our family business. Swap in a specific campaign, channel or result." },
     { title: "A website I built", glyph: "</>", tags: ["web"], status: "shipped", c: "#E0527A", sample: true,
@@ -273,6 +274,7 @@
           <p class="p-tags">${p.tags.map(esc).join(" · ")}</p>
           <h3>${esc(p.title)}${p.sample ? '<span class="sample">sample</span>' : ""}</h3>
           <p>${esc(p.desc)}</p>
+          ${p.link ? `<a class="project-link" href="${esc(p.link)}" target="_blank" rel="noopener noreferrer">Visit website ↗</a>` : ""}
         </div>
         <div class="p-foot"><span class="status ${p.status}">${STATUS[p.status]}</span></div>
       </article>`).join("");
