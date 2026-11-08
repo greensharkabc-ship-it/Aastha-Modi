@@ -21,6 +21,21 @@
       desc: "An idea at the edge of neuroscience, nutrition and tech. Replace with one of your own experiments." }
   ];
 
+  const EXPERIENCE = [
+    { when: "Now", role: "Founder, in progress", org: "My own ventures",
+      points: ["Working on my own business and startup ideas.",
+               "Building websites and prototypes to test ideas quickly."],
+      skills: ["Startups", "Product", "Research"] },
+    { when: "Family business", role: "Business Development & Marketing", org: "Family business",
+      points: ["Hands-on experience in business development and marketing.",
+               "Real exposure to how a business actually works: customers, operations and decisions."],
+      skills: ["Business development", "Marketing", "Operations"] },
+    { when: "Ongoing", role: "Web builder", org: "Self-taught · personal projects",
+      points: ["Building websites and little tools, self-taught.",
+               "Learning by shipping. Every project teaches me something new."],
+      skills: ["Web", "AI-assisted coding", "Design"] }
+  ];
+
   const TOPICS = {
     tech: "#4F6BFF", business: "#E0892B", neuroscience: "#E0527A", psychology: "#8B5CF6",
     physiology: "#0EA5A4", nutrition: "#3FA34D", languages: "#C9950C"
