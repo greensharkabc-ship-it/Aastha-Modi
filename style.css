@@ -407,3 +407,32 @@ mark:nth-of-type(2) { animation-delay: .8s; } mark:nth-of-type(3) { animation-de
   body { background: #fff; color: #000; }
   .sheet { box-shadow: none; border: 0; padding: 0; max-width: none; }
 }
+
+
+/* Some Secrets */
+.secret-jokes-wrap {
+  max-width: 760px;
+  margin: 2rem auto 0;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line, rgba(127, 127, 127, .25));
+  border-radius: 18px;
+  background: var(--surface, rgba(127, 127, 127, .04));
+}
+.secret-jokes-label {
+  margin: 0 0 1rem;
+  color: var(--muted, #888);
+  font-size: .72rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.secret-jokes {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+.secret-jokes li {
+  padding: .85rem .25rem;
+  border-bottom: 1px dashed var(--line, rgba(127, 127, 127, .25));
+  line-height: 1.6;
+}
+.secret-jokes li:last-child { border-bottom: 0; }
+.secret-joke-placeholder { color: var(--muted, #888); font-style: italic; }
