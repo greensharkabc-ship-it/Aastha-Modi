@@ -10,7 +10,7 @@
     { title: "This portfolio", glyph: "A_", tags: ["web"], status: "shipped", c: "#2F4BFF",
        desc: "I've made this personal website for myself"},
     { title: "An e-commerce website", glyph: "↗", tags: ["web"], status: "shipped", c: "#E0892B", sample: true,
-      desc: "Built an e-commerce website, working with a team, for a retail store. The website has active users and we've made Rs.20k+ in revenue through the website. Visit: https://agarwalonline.in/"},
+      desc: "Built an e-commerce website, working with a team, for a retail store. The website has active users and we've made Rs.20k+ in revenue through the website. Visit: https://agarwalonline.in/},
     { title: "Family business: growth & marketing", glyph: "%", tags: ["business"], status: "shipped", c: "#1F9D5A", sample: true,
       desc: "Business development and marketing work for our family business. Swap in a specific campaign, channel or result." },
     { title: "A website I built", glyph: "</>", tags: ["web"], status: "shipped", c: "#E0527A", sample: true,
