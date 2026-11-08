@@ -19,19 +19,6 @@
       desc: "A tiny flip-card trainer for my Spanish vocab. Try it in the Hobbies tab." },
     { title: "Neuro × nutrition notes", glyph: "∿", tags: ["experiment"], status: "idea", c: "#8B5CF6", sample: true,
       desc: "An idea at the edge of neuroscience, nutrition and tech. Replace with one of your own experiments." }
-  ]; = [
-    { when: "Now", role: "Founder, in progress", org: "My own ventures",
-      points: ["Working on my own business and startup ideas.",
-               "Building websites and prototypes to test ideas quickly."],
-      skills: ["Startups", "Product", "Research"] },
-    { when: "Family business", role: "Business Development & Marketing", org: "Family business",
-      points: ["Hands-on experience in business development and marketing.",
-               "Real exposure to how a business actually works: customers, operations and decisions."],
-      skills: ["Business development", "Marketing", "Operations"] },
-    { when: "Ongoing", role: "Web builder", org: "Self-taught · personal projects",
-      points: ["Building websites and little tools, self-taught.",
-               "Learning by shipping. Every project teaches me something new."],
-      skills: ["Web", "AI-assisted coding", "Design"] }
   ];
 
   const TOPICS = {
