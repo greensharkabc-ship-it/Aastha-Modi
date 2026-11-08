@@ -265,12 +265,8 @@
 
   /* ---------- projects ---------- */
   const STATUS = { shipped: "shipped", building: "in progress", idea: "idea" };
-  const projFilters = ["all", "web", "startup", "business", "experiment"];
-  let projFilter = "all";
   function renderProjects() {
-    $("#project-filters").innerHTML = projFilters.map((f) =>
-      `<button type="button" data-f="${f}" aria-pressed="${f === projFilter}">${f}</button>`).join("");
-    $("#project-grid").innerHTML = PROJECTS.filter((p) => projFilter === "all" || p.tags.includes(projFilter)).map((p) => `
+    $("#project-grid").innerHTML = PROJECTS.map((p) => `
       <article class="project" style="--c:${p.c}">
         <div class="p-thumb" aria-hidden="true"><span>${esc(p.glyph)}</span></div>
         <div class="p-body">
@@ -281,10 +277,6 @@
         <div class="p-foot"><span class="status ${p.status}">${STATUS[p.status]}</span></div>
       </article>`).join("");
   }
-  $("#project-filters").addEventListener("click", (e) => {
-    const b = e.target.closest("button"); if (!b) return;
-    projFilter = b.dataset.f; renderProjects();
-  });
   renderProjects();
 
   /* ---------- experience + resume ---------- */
